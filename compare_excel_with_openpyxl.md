@@ -12,10 +12,10 @@
 
 由于本次要比对的报表是Office07的.xlsx文件，上网查了一下Python怎么做比较合适。
 看了几篇心得以后，敲定用Openpyxl（参考如下链接：）
->[Python处理Excel的四个工具](http://www.gocalf.com/blog/python-read-write-excel.html)
+>[Python处理Excel的四个工具][4toolForPythonExcel]
 
 于是接下来是装Openpyxl，到官网上按照流程装了一发：
->[A Python Library: Openpyxl](https://pythonhosted.org/openpyxl/)
+>[A Python Library: Openpyxl][Openpyxl]
 
 由于源码是到BitBucket上拖下来的，所以顺便还装了SourceTree。
 据说SourceTree还有Git的相关功能，下次可以体验一下。
@@ -29,7 +29,7 @@ from openpyxl import *
 ```
 
 Openpyxl还提供了一个非常棒的教程~~（有点过于简单~~
->[Openpyxl Tutorial](https://pythonhosted.org/openpyxl/tutorial.html)
+>[Openpyxl Tutorial][OpenpyxlTutorial]
 
 Openpyxl还有个弊端就是文档不怎么详细，只能去翻源码。
 
@@ -37,7 +37,10 @@ Openpyxl还有个弊端就是文档不怎么详细，只能去翻源码。
 ## 最终代码
 
 可以到我写的PythonScripts里找到我写的版本：
-[PythonScripts - ExcelComparer](https://github.com/LKI/PythonScripts/tree/master/ExcelComparer)
+[PythonScripts - ExcelComparer][ExcelComparer]
 
 
-
+[4toolForPythonExcel]:http://www.gocalf.com/blog/python-read-write-excel.html
+[Openpyxl]:https://pythonhosted.org/openpyxl/
+[OpenpyxlTutorial]:https://pythonhosted.org/openpyxl/tutorial.html
+[ExcelComparer]:https://github.com/LKI/PythonScripts/tree/master/ExcelComparer
