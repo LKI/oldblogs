@@ -20,4 +20,4 @@
 [liriansu]:     http://www.liriansu.com
 [lki-source]:   https://github.com/LKI/lki.github.com
 [about]:        http://www.liriansu.com/about
-[star]:         https://github.com/LKI/blogs/stargazers
+[star]:         https://github.com/LKI/oldblogs/stargazers
